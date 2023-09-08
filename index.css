@@ -5,8 +5,8 @@
 }
 
 .background {
-  background-color: #12181b;
-  height: 100vh;
+  background-image: url(https://source.unsplash.com/random/?tic-tac-toe);
+    height: 100vh;
   padding-top: 1px;
 }
 
