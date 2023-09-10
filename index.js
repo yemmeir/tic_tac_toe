@@ -59,18 +59,12 @@ window.addEventListener("DOMContentLoaded", () => {
     switch (type) {
       case PLAYERO_WON:
         Swal.fire('player O won');
-        resetButton.addEventListener("click", resetBoard);
-
         break;
       case PLAYERX_WON:
         Swal.fire('player X won');
-        resetButton.addEventListener("click", resetBoard);
-
         break;
       case TIE:
         Swal.fire('Tie');
-        resetButton.addEventListener("click", resetBoard);
-
       }
     announcer.classList.remove("hide");
   };
